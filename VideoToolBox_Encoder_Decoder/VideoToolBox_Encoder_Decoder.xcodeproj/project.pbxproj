@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFDE923226DA411A0095F1BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE923126DA411A0095F1BD /* AppDelegate.m */; };
+		FFDE923526DA411A0095F1BD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE923426DA411A0095F1BD /* SceneDelegate.m */; };
+		FFDE923826DA411A0095F1BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE923726DA411A0095F1BD /* ViewController.m */; };
+		FFDE923B26DA411A0095F1BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDE923926DA411A0095F1BD /* Main.storyboard */; };
+		FFDE923D26DA411C0095F1BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDE923C26DA411C0095F1BD /* Assets.xcassets */; };
+		FFDE924026DA411C0095F1BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDE923E26DA411C0095F1BD /* LaunchScreen.storyboard */; };
+		FFDE924326DA411C0095F1BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE924226DA411C0095F1BD /* main.m */; };
+		FFDE924D26DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE924C26DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests.m */; };
+		FFDE925826DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE925726DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests.m */; };
+		FFDE926726DA413D0095F1BD /* HDEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE926626DA413D0095F1BD /* HDEncoder.m */; };
+		FFDE926D26DA529F0095F1BD /* HDDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDE926C26DA529F0095F1BD /* HDDecoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFDE924926DA411C0095F1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDE922526DA411A0095F1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDE922C26DA411A0095F1BD;
+			remoteInfo = VideoToolBox_Encoder_Decoder;
+		};
+		FFDE925426DA411C0095F1BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDE922526DA411A0095F1BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDE922C26DA411A0095F1BD;
+			remoteInfo = VideoToolBox_Encoder_Decoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFDE922D26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoToolBox_Encoder_Decoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDE923026DA411A0095F1BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFDE923126DA411A0095F1BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFDE923326DA411A0095F1BD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FFDE923426DA411A0095F1BD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FFDE923626DA411A0095F1BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFDE923726DA411A0095F1BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFDE923A26DA411A0095F1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDE923C26DA411C0095F1BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDE923F26DA411C0095F1BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDE924126DA411C0095F1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDE924226DA411C0095F1BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFDE924826DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoToolBox_Encoder_DecoderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDE924C26DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoToolBox_Encoder_DecoderTests.m; sourceTree = "<group>"; };
+		FFDE924E26DA411C0095F1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDE925326DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoToolBox_Encoder_DecoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDE925726DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoToolBox_Encoder_DecoderUITests.m; sourceTree = "<group>"; };
+		FFDE925926DA411C0095F1BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDE926526DA413D0095F1BD /* HDEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDEncoder.h; sourceTree = "<group>"; };
+		FFDE926626DA413D0095F1BD /* HDEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDEncoder.m; sourceTree = "<group>"; };
+		FFDE926B26DA529F0095F1BD /* HDDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDDecoder.h; sourceTree = "<group>"; };
+		FFDE926C26DA529F0095F1BD /* HDDecoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDDecoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDE922A26DA411A0095F1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDE924526DA411C0095F1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDE925026DA411C0095F1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDE922426DA411A0095F1BD = {
+			isa = PBXGroup;
+			children = (
+				FFDE922F26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder */,
+				FFDE924B26DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests */,
+				FFDE925626DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests */,
+				FFDE922E26DA411A0095F1BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDE922E26DA411A0095F1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE922D26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder.app */,
+				FFDE924826DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests.xctest */,
+				FFDE925326DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDE922F26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE923026DA411A0095F1BD /* AppDelegate.h */,
+				FFDE923126DA411A0095F1BD /* AppDelegate.m */,
+				FFDE923326DA411A0095F1BD /* SceneDelegate.h */,
+				FFDE923426DA411A0095F1BD /* SceneDelegate.m */,
+				FFDE923626DA411A0095F1BD /* ViewController.h */,
+				FFDE923726DA411A0095F1BD /* ViewController.m */,
+				FFDE926526DA413D0095F1BD /* HDEncoder.h */,
+				FFDE926626DA413D0095F1BD /* HDEncoder.m */,
+				FFDE926B26DA529F0095F1BD /* HDDecoder.h */,
+				FFDE926C26DA529F0095F1BD /* HDDecoder.m */,
+				FFDE923926DA411A0095F1BD /* Main.storyboard */,
+				FFDE923C26DA411C0095F1BD /* Assets.xcassets */,
+				FFDE923E26DA411C0095F1BD /* LaunchScreen.storyboard */,
+				FFDE924126DA411C0095F1BD /* Info.plist */,
+				FFDE924226DA411C0095F1BD /* main.m */,
+			);
+			path = VideoToolBox_Encoder_Decoder;
+			sourceTree = "<group>";
+		};
+		FFDE924B26DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE924C26DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests.m */,
+				FFDE924E26DA411C0095F1BD /* Info.plist */,
+			);
+			path = VideoToolBox_Encoder_DecoderTests;
+			sourceTree = "<group>";
+		};
+		FFDE925626DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDE925726DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests.m */,
+				FFDE925926DA411C0095F1BD /* Info.plist */,
+			);
+			path = VideoToolBox_Encoder_DecoderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDE922C26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDE925C26DA411C0095F1BD /* Build configuration list for PBXNativeTarget "VideoToolBox_Encoder_Decoder" */;
+			buildPhases = (
+				FFDE922926DA411A0095F1BD /* Sources */,
+				FFDE922A26DA411A0095F1BD /* Frameworks */,
+				FFDE922B26DA411A0095F1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoToolBox_Encoder_Decoder;
+			productName = VideoToolBox_Encoder_Decoder;
+			productReference = FFDE922D26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFDE924726DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDE925F26DA411C0095F1BD /* Build configuration list for PBXNativeTarget "VideoToolBox_Encoder_DecoderTests" */;
+			buildPhases = (
+				FFDE924426DA411C0095F1BD /* Sources */,
+				FFDE924526DA411C0095F1BD /* Frameworks */,
+				FFDE924626DA411C0095F1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDE924A26DA411C0095F1BD /* PBXTargetDependency */,
+			);
+			name = VideoToolBox_Encoder_DecoderTests;
+			productName = VideoToolBox_Encoder_DecoderTests;
+			productReference = FFDE924826DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFDE925226DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDE926226DA411C0095F1BD /* Build configuration list for PBXNativeTarget "VideoToolBox_Encoder_DecoderUITests" */;
+			buildPhases = (
+				FFDE924F26DA411C0095F1BD /* Sources */,
+				FFDE925026DA411C0095F1BD /* Frameworks */,
+				FFDE925126DA411C0095F1BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDE925526DA411C0095F1BD /* PBXTargetDependency */,
+			);
+			name = VideoToolBox_Encoder_DecoderUITests;
+			productName = VideoToolBox_Encoder_DecoderUITests;
+			productReference = FFDE925326DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDE922526DA411A0095F1BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FFDE922C26DA411A0095F1BD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FFDE924726DA411C0095F1BD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FFDE922C26DA411A0095F1BD;
+					};
+					FFDE925226DA411C0095F1BD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FFDE922C26DA411A0095F1BD;
+					};
+				};
+			};
+			buildConfigurationList = FFDE922826DA411A0095F1BD /* Build configuration list for PBXProject "VideoToolBox_Encoder_Decoder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDE922426DA411A0095F1BD;
+			productRefGroup = FFDE922E26DA411A0095F1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDE922C26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder */,
+				FFDE924726DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests */,
+				FFDE925226DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDE922B26DA411A0095F1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE924026DA411C0095F1BD /* LaunchScreen.storyboard in Resources */,
+				FFDE923D26DA411C0095F1BD /* Assets.xcassets in Resources */,
+				FFDE923B26DA411A0095F1BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDE924626DA411C0095F1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDE925126DA411C0095F1BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDE922926DA411A0095F1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE923826DA411A0095F1BD /* ViewController.m in Sources */,
+				FFDE926726DA413D0095F1BD /* HDEncoder.m in Sources */,
+				FFDE923226DA411A0095F1BD /* AppDelegate.m in Sources */,
+				FFDE924326DA411C0095F1BD /* main.m in Sources */,
+				FFDE926D26DA529F0095F1BD /* HDDecoder.m in Sources */,
+				FFDE923526DA411A0095F1BD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDE924426DA411C0095F1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE924D26DA411C0095F1BD /* VideoToolBox_Encoder_DecoderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDE924F26DA411C0095F1BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDE925826DA411C0095F1BD /* VideoToolBox_Encoder_DecoderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFDE924A26DA411C0095F1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDE922C26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder */;
+			targetProxy = FFDE924926DA411C0095F1BD /* PBXContainerItemProxy */;
+		};
+		FFDE925526DA411C0095F1BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDE922C26DA411A0095F1BD /* VideoToolBox_Encoder_Decoder */;
+			targetProxy = FFDE925426DA411C0095F1BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFDE923926DA411A0095F1BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDE923A26DA411A0095F1BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDE923E26DA411C0095F1BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDE923F26DA411C0095F1BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDE925A26DA411C0095F1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFDE925B26DA411C0095F1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDE925D26DA411C0095F1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBox_Encoder_Decoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hsp.org.VideoToolBox-Encoder-Decoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFDE925E26DA411C0095F1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBox_Encoder_Decoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hsp.org.VideoToolBox-Encoder-Decoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFDE926026DA411C0095F1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBox_Encoder_DecoderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hsp.org.VideoToolBox-Encoder-DecoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoToolBox_Encoder_Decoder.app/VideoToolBox_Encoder_Decoder";
+			};
+			name = Debug;
+		};
+		FFDE926126DA411C0095F1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBox_Encoder_DecoderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hsp.org.VideoToolBox-Encoder-DecoderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoToolBox_Encoder_Decoder.app/VideoToolBox_Encoder_Decoder";
+			};
+			name = Release;
+		};
+		FFDE926326DA411C0095F1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBox_Encoder_DecoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hsp.org.VideoToolBox-Encoder-DecoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoToolBox_Encoder_Decoder;
+			};
+			name = Debug;
+		};
+		FFDE926426DA411C0095F1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VideoToolBox_Encoder_DecoderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hsp.org.VideoToolBox-Encoder-DecoderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VideoToolBox_Encoder_Decoder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDE922826DA411A0095F1BD /* Build configuration list for PBXProject "VideoToolBox_Encoder_Decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDE925A26DA411C0095F1BD /* Debug */,
+				FFDE925B26DA411C0095F1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDE925C26DA411C0095F1BD /* Build configuration list for PBXNativeTarget "VideoToolBox_Encoder_Decoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDE925D26DA411C0095F1BD /* Debug */,
+				FFDE925E26DA411C0095F1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDE925F26DA411C0095F1BD /* Build configuration list for PBXNativeTarget "VideoToolBox_Encoder_DecoderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDE926026DA411C0095F1BD /* Debug */,
+				FFDE926126DA411C0095F1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDE926226DA411C0095F1BD /* Build configuration list for PBXNativeTarget "VideoToolBox_Encoder_DecoderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDE926326DA411C0095F1BD /* Debug */,
+				FFDE926426DA411C0095F1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDE922526DA411A0095F1BD /* Project object */;
+}
